@@ -1,0 +1,40 @@
+<div class="page-header">
+  <h1>
+    Top Secret Messaging
+    <small>James Bond was yesterday</small>
+  </h1>
+</div>
+<div class="row">
+  <div class="span4">
+    <h2>How does it work?</h2>
+    <p>Enter your message, encrypt it with your addressee's email address and mail it.</p>
+    <p>As we assume your message to be top secret, we never see your password and store only the encrypted message.</p>
+    <p>To increase the security, we even delete the encrypted message after your addressee read it.</p>
+  </div>
+  <div class="span12">
+    <h3>Your message</h3>
+    <form>
+      <fieldset>
+        <div class="clearfix">
+          <label for="message">Message</label>
+          <div class="input">
+            <textarea id="message" class="xxlarge"></textarea>
+          </div>
+        </div>
+        <div class="clearfix">
+          <label for="password">Addressee's email address</label>
+          <div class="input">
+            <div class="input-prepend">
+              <span class="add-on">@</span>
+              <input type="text" id="password" class="span9">
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <div class="actions">
+        <button type="submit" class="btn primary" id="encrypt">Encrypt it!</button>
+        <button type="reset" class="btn" id="cancel">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
