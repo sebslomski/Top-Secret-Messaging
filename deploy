@@ -1,0 +1,4 @@
+brunch build .
+scp -r index.html rocknroll:/var/src/aes/client/
+scp -r img rocknroll:/var/src/aes/client/
+scp -r web rocknroll:/var/src/aes/client/
